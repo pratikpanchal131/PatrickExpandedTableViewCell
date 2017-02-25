@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PatrickExpandedTableViewCell_Example' do
+  pod 'PatrickExpandedTableViewCell', :path => '../'
+
+  target 'PatrickExpandedTableViewCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
