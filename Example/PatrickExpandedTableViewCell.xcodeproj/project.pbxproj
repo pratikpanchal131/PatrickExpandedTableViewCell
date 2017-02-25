@@ -14,6 +14,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		A9AD9C541E615B6500F55B8D /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD9C531E615B6500F55B8D /* HeaderCell.swift */; };
 		C6E94F18D15454BD08BE5785 /* Pods_PatrickExpandedTableViewCell_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41722E70F9DDA1B1B04337A /* Pods_PatrickExpandedTableViewCell_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		0B58D37EC09EDC73C43BC65C /* Pods_PatrickExpandedTableViewCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrickExpandedTableViewCell_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5217B0934D9E6A4516F8763B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5217B0934D9E6A4516F8763B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PatrickExpandedTableViewCell_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PatrickExpandedTableViewCell_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,11 +43,12 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		63C2C1B8E1949C48A4BBA67D /* Pods-PatrickExpandedTableViewCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickExpandedTableViewCell_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickExpandedTableViewCell_Tests/Pods-PatrickExpandedTableViewCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		68D08A302EFEFB37E1CCAE68 /* Pods-PatrickExpandedTableViewCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickExpandedTableViewCell_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickExpandedTableViewCell_Example/Pods-PatrickExpandedTableViewCell_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BF2E8001272C3E3A7E6DDCB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A9AD9C531E615B6500F55B8D /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		BF2E8001272C3E3A7E6DDCB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C41722E70F9DDA1B1B04337A /* Pods_PatrickExpandedTableViewCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PatrickExpandedTableViewCell_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D889E11B9276FE6BD2EDAE7C /* Pods-PatrickExpandedTableViewCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickExpandedTableViewCell_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickExpandedTableViewCell_Tests/Pods-PatrickExpandedTableViewCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E174449F2392883D641DFCC7 /* Pods-PatrickExpandedTableViewCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PatrickExpandedTableViewCell_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PatrickExpandedTableViewCell_Example/Pods-PatrickExpandedTableViewCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F9709FBC98969FC36712A6AA /* PatrickExpandedTableViewCell.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PatrickExpandedTableViewCell.podspec; path = ../PatrickExpandedTableViewCell.podspec; sourceTree = "<group>"; };
+		F9709FBC98969FC36712A6AA /* PatrickExpandedTableViewCell.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PatrickExpandedTableViewCell.podspec; path = ../PatrickExpandedTableViewCell.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 		607FACD21AFB9204008FA782 /* Example for PatrickExpandedTableViewCell */ = {
 			isa = PBXGroup;
 			children = (
+				A9AD9C531E615B6500F55B8D /* HeaderCell.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -362,6 +365,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				A9AD9C541E615B6500F55B8D /* HeaderCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

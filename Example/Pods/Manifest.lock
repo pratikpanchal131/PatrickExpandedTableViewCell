@@ -1,0 +1,16 @@
+PODS:
+  - PatrickExpandedTableViewCell (0.1.0)
+
+DEPENDENCIES:
+  - PatrickExpandedTableViewCell (from `../`)
+
+EXTERNAL SOURCES:
+  PatrickExpandedTableViewCell:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PatrickExpandedTableViewCell: f9eba23c32ffc4a6866fb5c85adc6f28d6d06efc
+
+PODFILE CHECKSUM: c9be1b54f751ecae8b0598463638c115336b43b3
+
+COCOAPODS: 1.2.0
